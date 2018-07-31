@@ -11,10 +11,10 @@ The client sdk of Golang for wacai open platform
 
 ### 使用配置
 - 测试环境
- - 申请app_key/app_secret,向挖财开放平台申请访问app_key/app_secret,申请后 进行app_key/app_secret替换,替换为步骤1申请的(在/config/AppConfig.go中修改)
+	- 申请app_key/app_secret,向挖财开放平台申请访问app_key/app_secret,申请后 进行app_key/app_secret替换,替换为步骤1申请的(在/config/AppConfig.go中修改)
 - 生产环境
- - 申请app_key/app_secret,向挖财开放平台申请访问app_key/app_secret,申请后 进行app_key/app_secret替换,替换为步骤1申请的(在AppConfig.go中修改)
- - 修改地址(生产环境),系统上线时，需要修改网关地址(在/config/AppConfig.go中修改)
+	- 申请app_key/app_secret,向挖财开放平台申请访问app_key/app_secret,申请后 进行app_key/app_secret替换,替换为步骤1申请的(在AppConfig.go中修改)
+	- 修改地址(生产环境),系统上线时，需要修改网关地址(在/config/AppConfig.go中修改)
 
 ### 使用实例
 ```go
